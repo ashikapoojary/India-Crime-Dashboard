@@ -47,6 +47,7 @@ app = Dash(
     title='India Crime Intelligence Dashboard',
     suppress_callback_exceptions=True,
 )
+server = app.server
 
 # ── Layout ────────────────────────────────────────────────────────────────────
 app.layout = html.Div(style={'backgroundColor': BG, 'minHeight': '100vh', 'fontFamily': "'Segoe UI', sans-serif", 'color': TEXT_PRIM}, children=[
