@@ -36,7 +36,7 @@ pip install -r requirements.txt
 python crime_dashboard.py
 
 Open:
-http://127.0.0.1:8050
+https://india-crime-dashboard.onrender.com
 
 ## Author
 
